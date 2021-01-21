@@ -1,0 +1,10 @@
+body {
+  width: 300px;
+  padding: 0.5em;
+}
+
+p#result {
+  overflow-wrap: break-word;
+  font-family: monospace;
+  font-size: 12pt;
+}
