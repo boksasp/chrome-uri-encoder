@@ -14,7 +14,7 @@ window.addEventListener("load", function()
   const encodeButton = document.getElementById(ENCODE_BUTTON_ID);
   const decodeButton = document.getElementById(DECODE_BUTTON_ID);
   const inputField = document.getElementById(INPUT_ID);
-  inputField.focus();
+  inputField?.focus();
 
   if (encodeButton) {
     encodeButton.addEventListener('click', event => transform(event, encodeURIComponent));
